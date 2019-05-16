@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Knight Path with A_star</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="input-group mt-4">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="">Enter chessboard dimension:</span>
+      </div>
+      <input type="number" class="form-control" placeholder="Must be an even number">
+      <button type="button" class="btn btn-primary mr-1 generate">Generate</button>
+      <button type="button" class="btn btn-primary mr-1 reset">Reset path</button>
+      <button type="button" class="btn btn-primary mr-1 nextStep">Show path</button>
+    </div>
+    <div class="container-fluid mt-4" id="table">
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="knightPathv2.js" charset="utf-8"></script>
+
+</body>
+
+</html>
